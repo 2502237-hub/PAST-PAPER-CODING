@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food for All Initiative</title>
+</head>
+<body>
+
+    <h1>Fighting Food Insecurity Together</h1>
+    
+    <p>Our mission is to uplift vulnerable communities across Nairobi by providing sustainable access to nutritious meals, promoting food security, and empowering local households through agricultural education.</p>
+    
+    <h2>Our Core Programmes</h2>
+    <ul>
+        <li>Community Kitchen Outreach</li>
+        <li>Urban Agriculture Training</li>
+        <li>School Feeding Partnerships</li>
+    </ul>
+
+    <p>Want to support our cause? Visit our <a href="donate.html">Donation Page</a> to make a contribution.</p>
+
+    <img src="images/food-initiative.jpg" alt="Volunteers distributing food packages to families in Nairobi">
+
+</body>
+</html>

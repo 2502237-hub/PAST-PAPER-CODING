@@ -1,0 +1,36 @@
+/* CSS Box Model Demonstration for an E-commerce Product Card */
+.product-card {
+    /* 1. Content Area size */
+    width: 250px;
+    
+    /* 4. Margin: Clears space OUTSIDE the border, separating cards from each other */
+    margin: 20px auto; 
+    
+    /* 3. Border: The line outlining the product card */
+    border: 2px solid #ddd;
+    
+    /* 2. Padding: Clears space INSIDE the border, keeping text away from the edges */
+    padding: 15px;
+    
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0 5px 0;
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #666;
+}

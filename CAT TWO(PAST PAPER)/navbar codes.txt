@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenyan News Portal Navigation</title>
+    <style>
+        /* Navbar container with dark background */
+        .navbar {
+            background-color: #1a1a2e;
+            padding: 15px 20px;
+        }
+
+        /* Unordered list to hold navigation items evenly spaced */
+        .nav-links {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around; /* Evenly spaced links */
+            align-items: center;
+        }
+
+        /* Navigation link styles */
+        .nav-links li a {
+            color: #ffffff; /* White link text */
+            text-decoration: none; /* No underline */
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        /* Change color to orange on hover */
+        .nav-links li a:hover {
+            color: #ff0a50;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#politics">Politics</a></li>
+            <li><a href="#business">Business</a></li>
+            <li><a href="#sports">Sports</a></li>
+            <li><a href="#technology">Technology</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
